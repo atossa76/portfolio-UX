@@ -1,6 +1,66 @@
 /*font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;*/
+:root {
+  --text-colors: rgb(62, 62, 62);
+  --text-font: "Poppins", sans-serif;
+  --heading-font: "Playfair Display", serif;
+  --primary-background-color: #22313f;
+  --secondary-background-color: #34495e;
+  --primary-color: #8dc6ff;
+  --secondary-color: #e4f1fe;
+}
 
-h1 {
-  color: rgb(62, 62, 62);
+.custom-nav li a {
+  color: var(--secondary-color) !important;
+}
+.my-name {
+  color: var(--secondary-color);
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--primary-color) !important;
+}
+.my-nav {
+  background-color: var(--secondary-background-color) !important;
+}
+
+.hero {
+  text-align: center;
+  color: var(--secondary-color);
+  background: var(--primary-background-color);
+  padding: 280px 20px;
+}
+
+.hero h2 {
+  margin: 0;
+  font-size: 36px;
+  font-family: var(--text-font);
+  font-weight: bold;
+}
+.hero h1 {
+  font-size: 96px;
+  font-weight: bold;
+  font-family: var(--heading-font);
+}
+
+.hero h3 {
+  font-family: var(--text-font);
+  font-size: 24px;
+  font-weight: normal;
+}
+.my-menu {
+  font-family: var(--text-font);
+}
+
+.my-btn {
+  font-size: 18px;
+  font-family: var(--text-font);
+  padding: 18px 30px;
+  color: var(--secondary-background-color);
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+.my-btn:hover {
+  color: var(--secondary-background-color);
+  background-color: var(--primary-color);
 }
