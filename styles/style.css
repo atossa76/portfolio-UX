@@ -110,24 +110,63 @@ p {
   padding: 10px 20px;
 }
 
-.about-content h2 {
+.the-content h2 {
   font-size: 36px;
   font-family: var(--text-font);
   font-weight: bold;
   margin: 120px 0 50px 0;
 }
 
-.about-content h1 {
+.the-content h1 {
   font-family: var(--heading-font);
   font-size: 64px;
+  font-weight: bold;
 }
 
-.about-content h3 {
+.the-content h3 {
   font-family: var(--text-font);
   font-weight: bold;
   font-size: 18px;
 }
 
+.project-page {
+  font-family: var(--heading-font);
+  font-size: 64px;
+  font-weight: bold;
+  margin: 120px 0 20px 0;
+  text-align: center;
+}
+
+.project-paragraph {
+  text-align: center;
+}
+
+.other-projects {
+  background-color: var(--secondary-background-color);
+  border-radius: 10px;
+  max-width: 1350px;
+  text-align: center;
+  padding: 40px;
+}
+
+.other-projects h3 {
+  padding-bottom: 30px;
+}
+.other-projects h4 {
+  padding-bottom: 20px;
+}
+.each-project {
+  border: 2px solid var(--primary-background-color);
+  border-radius: 10px;
+  margin: 0 10px;
+  padding: 15px 15px;
+  color: var(--secondary-color);
+}
+.photo-project {
+  margin: 0 10px;
+  padding: 15px 15px;
+  color: var(--secondary-color);
+}
 @media (max-width: 768px) {
   h2 {
     padding-top: 20px;
@@ -155,7 +194,7 @@ p {
   }
 }
 @media (max-width: 992px) {
-  .about-content h1 {
+  .the-content h1 {
     font-size: 36px;
   }
 }
