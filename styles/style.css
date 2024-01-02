@@ -205,18 +205,15 @@ footer a:hover {
 }
 
 .contact-me a {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   text-decoration: none;
   font-family: var(--text-font);
   font-size: 16px;
+  transition: all 150ms ease-in-out;
 }
 .contact-me a:hover {
   font-size: 20px;
-  transition: 0.5s;
-}
-
-.contact-me a:visited {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 @media (max-width: 992px) {
