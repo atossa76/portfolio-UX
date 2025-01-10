@@ -14,8 +14,11 @@ body {
 h1,
 h2,
 h3,
-p {
+h4,
+h5,
+h6 {
   color: var(--text-color);
+  font-family: var(--heading-font);
 }
 h3 {
   font-family: var(--heading-font);
@@ -26,6 +29,7 @@ p {
   font-family: var(--text-font);
   font-size: 16px;
   line-height: 30px;
+  color: var(--text-color);
 }
 
 footer {
@@ -121,7 +125,6 @@ footer p {
   margin: 15px 0 90px 0;
   text-align: center;
   font-size: 45px;
-  font-family: var(--text-font);
   font-weight: normal;
 }
 
@@ -253,6 +256,20 @@ footer p {
 
 .shower-wireframe {
   border: 3px solid var(--primary-color);
+}
+
+.project-images {
+  max-width: 100%; /* Allows the image to scale responsively */
+  width: 100%; /* Ensures the image fills its container if needed */
+  height: auto;
+  max-width: 900px;
+}
+
+.my-border {
+  border: 3px solid var(--primary-color);
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 992px) {
