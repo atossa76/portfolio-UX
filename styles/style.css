@@ -272,6 +272,15 @@ footer p {
   padding-bottom: 10px;
 }
 
+.project-links {
+  transition: all 200ms ease;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 17px;
+}
+.project-links:hover {
+  font-size: 20px;
+}
 @media (max-width: 992px) {
   h3 {
     font-size: 32px;
