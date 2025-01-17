@@ -281,6 +281,10 @@ footer p {
 .project-links:hover {
   font-size: 20px;
 }
+
+.full-screen-img {
+  cursor: pointer;
+}
 @media (max-width: 992px) {
   h3 {
     font-size: 32px;
