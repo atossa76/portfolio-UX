@@ -49,7 +49,6 @@ footer a {
   transition: all 150ms ease-in-out;
 }
 footer a:hover {
-  color: var(--secondary-color);
   font-size: 20px;
 }
 footer p {
@@ -58,8 +57,11 @@ footer p {
   padding: 0;
   margin-bottom: 0;
 }
+.navbar-toggler-icon {
+  filter: invert(1); /* Black */
+}
 .custom-nav li a {
-  color: var(--secondary-color) !important;
+  color: var(--text-color) !important;
 }
 .my-name {
   color: var(--secondary-color);
@@ -284,6 +286,10 @@ footer p {
 
 .full-screen-img {
   cursor: pointer;
+}
+
+.lock-img {
+  max-width: 300px;
 }
 @media (max-width: 992px) {
   h3 {
