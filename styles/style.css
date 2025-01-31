@@ -27,11 +27,13 @@ h3 {
 }
 p {
   font-family: var(--text-font);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   color: var(--text-color);
 }
-
+li {
+  font-size: 18px;
+}
 footer {
   background-color: var(--secondary-background-color);
   margin-top: 50px;
