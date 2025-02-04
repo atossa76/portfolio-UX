@@ -138,7 +138,7 @@ footer p {
   padding: 13px 26px;
   text-decoration: none;
   text-transform: capitalize;
-  border: solid;
+  border: solid 2px;
   border-color: var(--primary-color);
   color: var(--primary-color);
   transition: all 200ms ease-in-out;
