@@ -5,6 +5,7 @@
   --secondary-background-color: #f8f5f2;
   --primary-color: #8a9a5b;
   --text-color: #333333;
+  --background-colour: #fadf84;
 }
 
 body {
@@ -291,7 +292,7 @@ footer p {
 }
 
 .lock-img {
-  max-width: 300px;
+  max-width: 250px;
 }
 @media (max-width: 992px) {
   h3 {
