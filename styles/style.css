@@ -22,7 +22,6 @@ h6 {
   font-family: var(--heading-font);
 }
 h3 {
-  font-family: var(--heading-font);
   font-size: 40px;
   font-weight: 700;
 }
@@ -79,7 +78,7 @@ footer p {
 
 .hero {
   text-align: left;
-  padding: 220px 200px 135px 200px;
+  padding: 150px 200px 135px 200px;
 }
 
 .hero h2 {
