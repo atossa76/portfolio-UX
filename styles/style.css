@@ -129,27 +129,20 @@ footer p {
 .main-projects h2 {
   margin: 15px 0 90px 0;
   text-align: center;
-  font-size: 45px;
-  font-weight: normal;
+  font-size: 44px;
+  font-weight: 600;
 }
 
 .primary-link {
   font-family: var(--text-font);
-  border-radius: 4px;
-  padding: 13px 26px;
-  text-decoration: none;
+  text-decoration: underline;
   text-transform: capitalize;
-  border: solid 2px;
-  border-color: var(--primary-color);
   color: var(--primary-color);
   transition: all 200ms ease-in-out;
 }
 
 .primary-link:hover {
-  border-radius: 5px;
-  padding: 15px 30px;
-  border: solid;
-  border-color: var(--primary-color);
+  font-size: 20px;
 }
 
 .project-description {
@@ -322,6 +315,11 @@ footer p {
 
 .shower-table tr:nth-child(even) td {
   background-color: var(--primary-background-color);
+}
+
+.my-profile {
+  line-height: 1.75;
+  font-size: 24px !important;
 }
 
 @media (max-width: 992px) {
